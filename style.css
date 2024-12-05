@@ -1,0 +1,1152 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ubuntu,poppins;
+}
+body{
+   
+    color: #fff;
+    font-size: 16px;
+    background: #0f0f0f;
+    
+}
+.container{
+    width:100%;
+    height:100%;
+    background: #0f0f0f;
+    position: relative;
+
+}
+.first-sub-container{
+    width:100%;
+    height:1400px;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/dadb130d-463b-4e5b-b335-038ed912059e/web_auto_scroll/AE-en-20241118-TRIFECTA-7af33e4e-39b8-48c6-b66d-69794de0d02e_large.jpg) 50% center / cover no-repeat;
+    filter: blur(16px);
+    position: absolute;
+    width: 100%;
+    opacity: 0.16;
+    mask-image: linear-gradient(rgb(217, 217, 217) 78.62%, rgba(115, 115, 115, 0) 100%);
+   
+}
+
+.second-sub-container{
+    opacity: 75%;
+    background: radial-gradient(92.16% 100% at 49.87% 0%, rgba(247, 99, 107, 0.3) 19.86%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+   
+}
+.third-sub-container{
+    background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+   
+   
+}
+
+.header{
+    width:100%;
+    height: 88px;
+    margin-right:20px;
+    background:transparent
+}
+
+.header-container{
+    position: relative;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8000) 0.000%, rgba(0, 0, 0, 0.7889) 8.333%, rgba(0, 0, 0, 0.7556) 16.67%, rgba(0, 0, 0, 0.7000) 25.00%, rgba(0, 0, 0, 0.6222) 33.33%, rgba(0, 0, 0, 0.5222) 41.67%, rgba(0, 0, 0, 0.4000) 50.00%, rgba(0, 0, 0, 0.2778) 58.33%, rgba(0, 0, 0, 0.1778) 66.67%, rgba(0, 0, 0, 0.1000) 75.00%, rgba(0, 0, 0, 0.04444) 83.33%, rgba(0, 0, 0, 0.01111) 91.67%, rgba(0, 0, 0, 0.000) 100.0%);
+
+}
+.sub-header-container{
+    width: 100%;
+    max-width: 120rem;
+    height: 7.5rem;
+    margin: 0 auto -7.5rem auto;
+    /* z-index: 2; */
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 16px;
+} 
+#logo-desktop{
+    width: 205px;
+    height: 80px;
+}
+
+.navbar-btn button{  
+    border-radius: 20px;
+    width: auto;
+    height:32px;
+    padding:6px 15px 6px 15px;
+    margin-right:10px;  
+    
+}
+
+.language-btn{
+    background-color: #131212;
+    color:#fff;
+    font-size: 16px;
+    border: 0;
+    outline: 1px solid #767676;
+    
+}
+.translate-img{
+    width:18px;
+    height:18px;
+    
+}
+.fa-caret-down{
+    width:3px;
+    height:3px;
+    padding:0 5px;
+}
+.language-btn span{
+    margin:0 5px;
+}
+.signin-btn{
+    background: #fff;
+    color:black;
+    font-size: 14px;
+    font-weight: bold;
+    border: 0;
+    cursor: pointer;
+}
+.signin-btn:hover{
+    background-color: aliceblue;
+}
+.banner{
+    width:95%;
+    height:595px;
+    margin-left:30px;
+    padding-bottom:10px;
+    background-image: url(images/AE-en-20241111-TRIFECTA-ca3e7a9c-3f4c-4a19-9344-7c08521c4344_large.jpg); 
+    border-radius: 8px;
+    border: 2px solid #fff;
+    mask-image: radial-gradient(105% 12% at 50% 102%, transparent 50%, black 51%); 
+    mask-image: radial-gradient(101% 10% at 50% 102%, transparent 50%, black 52%);
+    position:relative; 
+  
+}
+.banner-container{
+    width:100%;
+    height:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    }
+
+.banner-content{
+    position:absolute;
+    top: 50%;
+    left:35%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner-content h1{
+    max-width: 650px;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70px;
+}
+
+.banner-content p{
+    font-size: 20px;
+    padding-top: 20px;
+
+}
+.pause-btn-div{
+    position:absolute;
+    bottom:25px;
+    right: 25px; 
+  
+}
+.circle{
+ 
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    background-color: #0f0f0f;
+    text-align: center;  
+    font-size: 20px;
+    }
+
+
+.Signup-form{
+    width:100%;
+    height: auto;
+    margin-top:30px; 
+    padding-top:10px;
+    padding-bottom:10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.email-signup{
+    width:50%;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;   
+}
+
+.email-signup input{
+     
+    border: 0;
+    outline: 1px solid #767676;
+    border-radius: 25px;
+    padding:16px;
+    font-size: 16px;
+    background:rgba(0, 0, 0);
+    color: #2b2b2b;
+}
+.email-btn{
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 14px 20px;
+    margin-left: 8px;
+    font-size: 18px;
+    cursor:pointer;    
+}
+.email-btn:hover{
+    background-color: #0f0f0f;
+}
+/* --------Trending now----------- */
+.title-wrapper{
+    width:1603px;
+    height: 36px;
+    margin: 40px 150px 0;
+    padding:16px;
+    
+}
+.slider-container{
+    width:100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+}
+
+.img-container{
+    width: 1580px;
+    height: 357px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 150px;
+    overflow:hidden
+   
+}
+.slide_div{
+    display: flex;
+    width:240px ;
+    height: 356px;
+    padding:10px 6px;
+    margin: 5px;
+    border-radius: 20px;
+    background:transparent;
+    /* z-index: 2; */
+
+}
+.slide_div img{
+    flex-basis: 1;
+    width: 252px;
+    height: 356px;
+    z-index:1;
+    border-radius: 20px;
+}
+.btn-div{
+    width:36px;
+    height:356px;
+    align-items:center;
+    display: flex;
+    margin-left: 10px;
+   
+}
+.post-slide-btn{
+    width:24px;
+    height:80px;
+    border-radius: 256px;
+    background: rgba(128,128,128,0.4);
+    border: none;
+  
+}
+.post-slide-btn i{
+
+    width:24px;
+    height: 24px;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+/* ---------------------reasons section----------------------------- */
+
+.reasons-wrapper{
+    width:1590px;
+    height:110px;
+    margin-left: 150px;   
+    display:grid;
+    grid-template-columns: repeat(auto-fit,380px);
+    gap:15px;
+    justify-content:center;
+  
+  
+   
+}
+.reasons-inner{
+    width:380px;
+    height:100px;
+    border-radius: 16px;
+    background:rgba(255,255,255,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    position: relative;  
+}
+
+.reasons-inner p{
+    font-size: 16px;
+    font-weight: 600;
+    padding:12px 16px;
+}
+
+.icon {
+
+    width:30px;
+    height:30px;
+    background-image: linear-gradient(
+    150deg,
+    #7c0993 23.4%,
+    #db0001 40%,
+    #2c3dae 86.6%
+  );
+    position: absolute;
+    bottom: 20px;
+    right:15px;
+         
+}
+ #icon_1{
+    mask-image: url(images/hand-holding-solid.svg);
+    mask-repeat: no-repeat;
+    transform: scaleX(-1);
+   
+}
+#icon_2{
+    mask-image: url(images/handshake-angle-solid.svg);
+    mask-repeat: no-repeat;
+    transform: rotate(90deg);
+   
+}
+#icon_3{
+    mask-image: url(images/heart-solid.svg);
+    mask-repeat: no-repeat;
+   
+}
+#icon_4{
+    mask-image: url(images/display-solid.svg);
+    mask-repeat: no-repeat;
+   
+}
+/* ------------------frequently asked questions------------ */
+.freq-ask-container{
+    width:1590px;
+    height: auto;
+    
+}
+.questions{
+    width:1550px;
+    height:90px;
+    margin:0 150px; 
+    border-radius: 16px;
+    background:rgba(255,255,255,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.04); 
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    margin-bottom: 10px;
+}
+
+.questions p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.questions button{
+    background: transparent;
+    border: none;
+}
+.questions button i{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:100;
+}
+
+/* ------------------------------------footer ------------------------------ */
+.footer-container{
+     width:1590px;
+     height:auto;
+     margin:100px 50px 50px 150px;
+     padding-bottom: 60px;
+     
+}
+.f-call{
+    width:1500px;
+    height:36px;
+    align-content: flex-end;
+    padding: 0 5px;  
+}
+.f-call p{
+    color:rgba(255,255,255,0.4) ;
+    word-spacing: 2px;
+}
+#f-call-num{
+    color:rgba(255,255,255,0.4) ;
+    text-decoration-color: rgba(255,255,255,0.4);  
+    cursor: pointer;
+}
+.f-links{
+    color:rgba(255,255,255,0.7) ;
+    text-decoration-color: rgba(255,255,255,0.7);  
+    cursor: pointer;
+}
+
+.f-button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#f-btn{
+    border-radius: 25px;
+    border: 0;
+    outline: 0;
+    background-color: #db0001;
+    color: #fff;
+    padding: 14px 32px;
+    font-size: 16px;
+    cursor: pointer; 
+}
+#f-btn:hover{
+    background-color: hsl(0, 98%, 32%);
+}
+.f-nav{
+    width:83%;
+    height: auto;
+    display:flex;
+    justify-content: space-between;
+    line-height:2;
+    padding:0 5px;  
+    margin-bottom: 20px; 
+}
+.f-language{
+    width: 100%;
+    height: 30px;
+    padding:10px 5px;
+    margin-bottom: 20px;
+   
+}
+.f-language button{  
+    border-radius: 20px;
+    width: auto;
+    height:32px;
+    padding:6px 15px 6px 15px;
+    margin-right:10px;  
+}
+.f-region{
+    width:100%;
+    height:36px;
+    align-content: flex-end;
+    padding: 0 5px;
+   
+}
+.f-region p{
+    color:rgba(255,255,255,0.7) ;
+    word-spacing: 2px;
+    font-size: 16px;
+}
+
+/* MOBILE VERSION */
+
+@media (width<600px){
+    .container{
+        width:90%;
+        padding:10px;
+    }
+
+    .first-sub-container{
+    width:100%;
+    height:1400px;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/dadb130d-463b-4e5b-b335-038ed912059e/web_auto_scroll/AE-en-20241118-TRIFECTA-7af33e4e-39b8-48c6-b66d-69794de0d02e_large.jpg) 50% center / cover no-repeat;
+    filter: blur(16px);
+    position: absolute;
+    width: 100%;
+    opacity: 0.16;
+    mask-image: linear-gradient(rgb(217, 217, 217) 78.62%, rgba(115, 115, 115, 0) 100%);
+   
+}
+
+.second-sub-container{
+    opacity: 75%;
+    background: radial-gradient(92.16% 100% at 49.87% 0%, rgba(247, 99, 107, 0.3) 19.86%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+    
+}
+.third-sub-container{
+    background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+    /* z-index: 4; */
+   
+}
+.header{
+    width:100%;
+    height: 88px;
+    margin-right:10px;
+    background:transparent
+}
+
+#logo-desktop{
+    width: 150px;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 6px;
+} 
+#logo-desktop{
+    width: 105px;
+    height: 80px;
+}
+
+nav button{  
+    border-radius: 20px;
+    width: auto;
+    height:30px;
+    padding:6px 15px;
+    margin-right:10px;  
+} 
+
+.language-btn{
+    background-color: #131212;
+    color:#fff;
+    font-size: 16px;
+    border: 0;
+    outline: 1px solid #767676;    
+}
+.language-btn span{
+    display: none;
+}
+.translate-img{
+    width:18px;
+    height:18px;
+    
+}
+.fa-caret-down{
+    width:3px;
+    height:3px;
+    padding:0 5px;
+}
+.language-btn span{
+    margin:0 5px;
+}
+.signin-btn{
+    background: white;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    padding:7px 12px;
+    border: 0;
+}
+.banner-container{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    }
+    .banner{
+        width:95%;
+        height:595px;
+        margin-left:30px;
+        padding-bottom:10px;
+        background-image: url(images/AE-en-20241111-TRIFECTA-ca3e7a9c-3f4c-4a19-9344-7c08521c4344_large.jpg); 
+        border-radius: 8px;
+        border: 2px solid #fff;
+        mask-image: radial-gradient(105% 12% at 50% 102%, transparent 50%, black 51%); 
+        mask-image: radial-gradient(101% 10% at 50% 102%, transparent 50%, black 52%);
+        position:relative; 
+        display: flex;
+        justify-content: center;
+      
+    }
+    .banner-content{
+        position:absolute;
+        top: 50%;
+        left:15%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-content h1{
+        max-width: 400px;
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    .banner-content p{
+        font-size: 18px;
+        padding-top: 20px;
+    
+    }
+    /*----------------- Email sign up------------------ */
+    .Signup-form{
+        margin-left: 20px;;
+    }
+    
+    .email-signup{
+        width:100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; 
+    }
+    
+    .email-signup input{    
+        border: 0;
+        outline: 1px solid #767676;
+        border-radius: 25px;
+        padding:16px 80px;
+        font-size: 16px;
+        background:rgba(0, 0, 0);
+        color: #2b2b2b;
+        margin-bottom: 10px;
+    }
+    .email-signup button{
+        
+        display:block;   
+        
+    }
+    /* ----------------------Trending Now Section---------------- */
+    .title-wrapper{
+        width:1603px;
+        height: 36px;
+        margin: 0px 5px 0;
+        padding:16px;
+        font-size: 14px;
+        
+    }
+    .slider-container{
+        width:100%;
+        
+    }
+    
+    .img-container{
+        width:100%;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: left;
+        margin-left: 0px;
+        overflow:hidden
+       
+    }
+    .slide_div{
+        display: flex;
+        width:130px ;
+        height: 200px;
+        padding:0px 0px;
+        margin: 5px;
+        border-radius: 20px;
+        background:transparent;
+        /* z-index: 2; */
+    
+    }
+    .slide_div img{
+       
+        width: 125px;
+        height: 100%;
+        /* z-index:1; */
+        border-radius: 20px;
+    }
+    .btn-div{
+        width:36px;
+        height:316px;
+        align-items:center;
+        display: flex;
+        margin-left: 5px;
+       
+    }
+    .post-slide-btn{
+        width:24px;
+        height:80px;
+        border-radius: 256px;
+        background: rgba(128,128,128,0.4);
+        border: none;
+      
+    }
+    .post-slide-btn i{
+    
+        width:24px;
+        height: 24px;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /* -------------------------------reasons--------------------- */
+    .reasons-wrapper{
+        width:100%;
+        height:auto;
+        margin-left: 0px; 
+        margin-bottom: 20px;  
+        display:grid;
+        align-items: center;
+        justify-content: space-between; 
+        
+    }
+    .reasons-inner{
+        width:100%;
+        height:100px;
+        border-radius: 16px;
+        background:rgba(255,255,255,0.1);
+        border: 2px solid rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(12px);
+        position: relative;  
+    }
+    
+  
+ /* ------------------frequently asked questions------------ */
+.freq-ask-container{
+    width:100%;
+    height: auto;
+    
+}
+.questions{
+    width:95%;
+    height:90px;
+    margin:0px; 
+    border-radius: 16px;
+    background:rgba(255,255,255,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.04); 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    margin-bottom: 10px;
+}
+
+.questions p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.questions button{
+    background: transparent;
+    border: none;
+}
+.questions button i{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:100;
+}   
+    /*-------------------------------------footer -----------------------------------------  */
+
+    .footer-container{
+        width:100%;
+        height:auto;
+        margin:100px 0px 50px 0px;
+        padding-bottom: 60px;
+        
+   }
+   .f-call{
+       width:100%;
+       height:36px;
+       align-content: flex-end;
+       padding: 0 5px;
+       margin-bottom: 20px;  
+   }
+ 
+   .f-button{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 200px 0px;
+   }
+  
+   .f-nav{
+       width:83%;
+       height: auto;
+       display:grid;
+       justify-content: space-between;
+       line-height:2;
+       padding:0 5px;  
+       margin-bottom: 20px; 
+   }
+   .f-language{
+       width: 100%;
+       height: 30px;
+       padding:10px 5px;
+       margin-bottom: 20px;
+      
+   }
+   .f-language button{  
+       border-radius: 20px;
+       width: auto;
+       height:32px;
+       padding:6px 15px 6px 15px;
+       margin-right:10px;  
+   }
+   .f-region{
+       width:100%;
+       height:36px;
+       align-content: flex-end;
+       padding: 0 5px;
+      
+   }
+   .f-region p{
+       color:rgba(255,255,255,0.7) ;
+       word-spacing: 2px;
+       font-size: 16px;
+   }
+
+}
+
+/* ----------------------tablet version-------------------------- */
+
+@media (600px < width < 1280px){
+    .container{
+        width:90%;
+        padding:10px;
+    }
+
+    .first-sub-container{
+    width:100%;
+    height:1400px;
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/dadb130d-463b-4e5b-b335-038ed912059e/web_auto_scroll/AE-en-20241118-TRIFECTA-7af33e4e-39b8-48c6-b66d-69794de0d02e_large.jpg) 50% center / cover no-repeat;
+    filter: blur(16px);
+    position: absolute;
+    width: 100%;
+    opacity: 0.16;
+    mask-image: linear-gradient(rgb(217, 217, 217) 78.62%, rgba(115, 115, 115, 0) 100%);
+   
+}
+
+.second-sub-container{
+    opacity: 75%;
+    background: radial-gradient(92.16% 100% at 49.87% 0%, rgba(247, 99, 107, 0.3) 19.86%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+    
+}
+.third-sub-container{
+    background: radial-gradient(50% 100% at 50% 0%, rgba(44, 66, 156, 0.15) 0%, rgba(0, 0, 0, 0) 100%);
+    position: absolute;
+    height: 75rem;
+    width: 100%;
+    /* z-index: 4; */
+   
+}
+.header{
+    width:100%;
+    height: 88px;
+    margin-right:10px;
+    background:transparent
+}
+
+#logo-desktop{
+    width: 150px;    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 6px;
+} 
+
+nav button{  
+    border-radius: 20px;
+    width: auto;
+    height:30px;
+    padding:6px 15px;
+    margin-right:10px;  
+} 
+
+.language-btn{
+    background-color: #131212;
+    color:#fff;
+    font-size: 16px;
+    border: 0;
+    outline: 1px solid #767676;    
+}
+
+.translate-img{
+    width:18px;
+    height:18px;
+    
+}
+.fa-caret-down{
+    width:3px;
+    height:3px;
+    padding:0 5px;
+}
+.language-btn span{
+    margin:5px 5px;
+}
+.signin-btn{
+    background: white;
+    color:black;
+    font-size: 16px;
+    font-weight: bold;
+    padding:7px 12px;
+    border: 0;
+}
+.banner-container{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+   
+    }
+    .banner{
+        width:95%;
+        height:595px;
+        margin-left:30px;
+        padding-bottom:10px;
+        background-image: url(images/AE-en-20241111-TRIFECTA-ca3e7a9c-3f4c-4a19-9344-7c08521c4344_large.jpg); 
+        border-radius: 8px;
+        border: 2px solid #fff;
+        mask-image: radial-gradient(105% 12% at 50% 102%, transparent 50%, black 51%); 
+        mask-image: radial-gradient(101% 10% at 50% 102%, transparent 50%, black 52%);
+        position:relative; 
+        display: flex;
+        justify-content: center;
+      
+    }
+    .banner-content{
+        position:absolute;
+        top: 50%;
+        left:15%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .banner-content h1{
+        max-width: 600px;
+        font-size: 55px;
+        font-weight: bold;
+        line-height: 50px;
+    }
+    .banner-content p{
+        font-size: 18px;
+        padding-top: 20px;
+    
+    }
+    /*----------------- Email sign up------------------ */
+    .Signup-form{
+        margin-left: 20px;;
+    }
+    
+    .email-signup{
+        width:100%;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: row; 
+    }
+    
+    .email-signup input{    
+        border: 0;
+        outline: 1px solid #767676;
+        border-radius: 25px;
+        padding:16px 80px;
+        font-size: 16px;
+        background:rgba(0, 0, 0);
+        color: #2b2b2b;
+        margin-bottom: 10px;
+    }
+    .email-signup button{
+        
+        display:flex;   
+        
+    }
+    /* ----------------------Trending Now Section---------------- */
+    .title-wrapper{
+        width:1603px;
+        height: 36px;
+        margin: 0px 35px 0;
+        padding:16px;
+        font-size: 14px;
+        
+    }
+    .slider-container{
+        width:100%;
+        
+    }
+    
+    .img-container{
+        width:100%;
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: left;
+        margin-left: 35px;
+        overflow:hidden
+       
+    }
+    .slide_div{
+        display: flex;
+        width:155px ;
+        height: 250px;
+        padding:0px 0px;
+        margin: 5px;
+        border-radius: 20px;
+        background:transparent;
+        /* z-index: 2; */
+    
+    }
+    .slide_div img{
+       
+        width: 150px;
+        height: 100%;
+        /* z-index:1; */
+        border-radius: 20px;
+    }
+    .btn-div{
+        width:36px;
+        height:316px;
+        align-items:center;
+        display: flex;
+        margin-left: 5px;
+       
+    }
+    .post-slide-btn{
+        width:24px;
+        height:80px;
+        border-radius: 256px;
+        background: rgba(128,128,128,0.4);
+        border: none;
+      
+    }
+    .post-slide-btn i{
+    
+        width:24px;
+        height: 24px;
+        color: #ffffff;
+        font-size: 16px;
+        text-align: center;
+        cursor: pointer;
+    }
+    /* -------------------------------reasons--------------------- */
+    .reasons-wrapper{
+        width:100%;
+        height:auto;
+        margin-left: 35px; 
+        margin-bottom: 20px;  
+        display:flex;
+        align-items: center;
+        justify-content: space-between; 
+        
+    }
+    .reasons-inner{
+        width:100%;
+        height:100px;
+        border-radius: 16px;
+        background:rgba(255,255,255,0.1);
+        border: 2px solid rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(12px);
+        position: relative;  
+    }
+    
+  
+ /* ------------------frequently asked questions------------ */
+.freq-ask-container{
+    width:100%;
+    height: auto;
+    
+}
+.questions{
+    width:95%;
+    height:90px;
+    margin:35px; 
+    border-radius: 16px;
+    background:rgba(255,255,255,0.1);
+    border: 2px solid rgba(255, 255, 255, 0.04); 
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20px;
+    margin-bottom: 10px;
+}
+
+.questions p{
+    font-size: 16px;
+    font-weight: 600;
+}
+.questions button{
+    background: transparent;
+    border: none;
+}
+.questions button i{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight:100;
+}   
+    /*-------------------------------------footer -----------------------------------------  */
+
+    .footer-container{
+        width:100%;
+        height:auto;
+        margin:100px 0px 100px 0px;
+        padding-bottom: 60px;
+        
+   }
+   .f-call{
+       width:100%;
+       height:36px;
+       align-content: flex-end;
+       padding: 0 35px;
+       margin-bottom: 20px;  
+   }
+ 
+   .f-button{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+       margin-bottom: 200px 0px;
+   }
+  
+   .f-nav{
+       width:83%;
+       height: auto;
+       display:flex;
+       justify-content: space-between;
+       line-height:2;
+       padding:0 35px;  
+       margin-bottom: 20px; 
+   }
+   .f-language{
+       width: 100%;
+       height: 30px;
+       padding:10px 35px;
+       margin-bottom: 20px;
+      
+   }
+  
+   .f-region{
+       width:100%;
+       height:36px;
+       align-content: flex-end;
+       padding: 0 35px;
+      
+   }
+ 
+}
